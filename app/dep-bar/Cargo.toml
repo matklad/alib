@@ -1,0 +1,7 @@
+[package]
+name = "dep-bar"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alib = { git = "https://github.com/matklad/alib",  rev = "68304e160273f9709b4530bd93bf266f3c7e7e7e" }

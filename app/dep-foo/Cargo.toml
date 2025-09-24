@@ -1,0 +1,7 @@
+[package]
+name = "dep-foo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alib = { git = "https://github.com/matklad/alib",  rev = "adb4fcd2e03e431c2eb131ac53245544cf05b29b" }
